@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 508b361af8b843f5bed4d1dac2793819, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  startingBalance: 0
+  businesses:
+  - businessId: 0
+    incomeDelay: 3
+    baseCost: 3
+    baseIncome: 3
+    businessLevel: 1
+    upgrade1:
+      price: 40
+      incomeMultiplier: 0.5
+      isOwned: 0
+    upgrade2:
+      price: 400
+      incomeMultiplier: 1
+      isOwned: 0
+    startOwned: 1
+  - businessId: 1
+    incomeDelay: 6
+    baseCost: 40
+    baseIncome: 40
+    businessLevel: 0
+    upgrade1:
+      price: 1200
+      incomeMultiplier: 1
+      isOwned: 0
+    upgrade2:
+      price: 4000
+      incomeMultiplier: 2
+      isOwned: 0
+    startOwned: 0
+  - businessId: 2
+    incomeDelay: 10
+    baseCost: 200
+    baseIncome: 200
+    businessLevel: 0
+    upgrade1:
+      price: 6000
+      incomeMultiplier: 1
+      isOwned: 0
+    upgrade2:
+      price: 20000
+      incomeMultiplier: 1.5
+      isOwned: 0
+    startOwned: 0
+  - businessId: 3
+    incomeDelay: 17
+    baseCost: 1000
+    baseIncome: 1000
+    businessLevel: 0
+    upgrade1:
+      price: 15000
+      incomeMultiplier: 1
+      isOwned: 0
+    upgrade2:
+      price: 50000
+      incomeMultiplier: 2
+      isOwned: 0
+    startOwned: 0
+  - businessId: 4
+    incomeDelay: 30
+    baseCost: 5000
+    baseIncome: 5000
+    businessLevel: 0
+    upgrade1:
+      price: 100000
+      incomeMultiplier: 2
+      isOwned: 0
+    upgrade2:
+      price: 500000
+      incomeMultiplier: 4
+      isOwned: 0
+    startOwned: 0
