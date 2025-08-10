@@ -49,6 +49,11 @@ namespace Project._Scripts.UI
             _businessPresenter = businessPresenter;
         }
 
+        private void OnApplicationPause(bool pauseStatus)
+        {
+            if (pauseStatus) SaveSystem.SaveGame(_businessModel.Balance, _businessItemPresenters.Values);
+        }
+        
         private BusinessItemModel CreateBusinessModel(BusinessConfig config, SaveSystem.BusinessSaveData saveData)
         {
             var model = new BusinessItemModel(config);
